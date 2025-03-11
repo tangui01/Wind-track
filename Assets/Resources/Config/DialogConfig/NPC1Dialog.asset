@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa10d3755c484834b9cd8b5921da8e53, type: 3}
+  m_Name: NPC1Dialog
+  m_EditorClassIdentifier: 
+  StepList:
+  - ISPlayer: 1
+    DialogText: "\u4F60\u597D\u5440"
+    StartEvents:
+    - info: "\u8FD9\u662F\u4E00\u6BB5\u6D4B\u8BD5\u4FE1\u606F1"
+    - info: "\u8FD9\u662F\u4E00\u6BB5\u6D4B\u8BD5\u4FE1\u606F2"
+    EndEvents:
+    - info: "\u8FD9\u662F\u4E00\u6BB5\u6D4B\u8BD5\u4FE1\u606F3"
+    - info: "\u8FD9\u662F\u4E00\u6BB5\u6D4B\u8BD5\u4FE1\u606F4"
+  - ISPlayer: 0
+    DialogText: "\u6211\u597D\u7684\u5F88\uFF01"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u6211\u8FD9\u91CC\u6709\u4E09\u4E2A\u6280\u80FD\u4F9B\u4F60\u9009\u62E9\uFF01"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u4F60\u771F\u6709\u773C\u5149\uFF0C\u8FD9\u4E2A{SkillName}\u662F\u7EDD\u4E16\u6280\u80FD\uFF01\u4F60\u8D5A\u5230\u4E86\uFF01"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u600E\u4E48\u8FD8\u4E0D\u8D70\uFF01"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u600E\u4E48\u8FD8\u4E0D\u8D70\uFF01!"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u600E\u4E48\u8FD8\u4E0D\u8D70\uFF01!"
+    StartEvents: []
+    EndEvents: []
+  - ISPlayer: 0
+    DialogText: "\u54FC\uFF01"
+    StartEvents: []
+    EndEvents: []
